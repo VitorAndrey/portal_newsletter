@@ -1,14 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
     <>
-      <Link href="/">Home</Link>
-      <Link href="/novembro">Novembro</Link>
-      <Link href="/dezembro">Dezembro</Link>
-      <Link href="/diadamulher">Dia das mulheres</Link>
-      <Link href="/fevereiro">Fevereiro</Link>
-      <Link href="/marco">Março</Link>
+      <Link href="/">
+        <h1>Home</h1>
+      </Link>
     </>
   );
 }

@@ -7,8 +7,9 @@ body {
   word-spacing: 2.7px;
   background-color: #fff;
 }
-img {
+.img {
   width: 100%;
+  height: auto;
 }
 a {
   color: black;
@@ -46,6 +47,13 @@ header {
   width: 70%;
   align-self: center;
   margin-bottom: 50px;
+}
+.bold {
+  font-weight: bold;
+}
+.vid {
+  width: 100%;
+  height: auto;
 }
 @media screen and (max-width: 622.22px) {
   p {

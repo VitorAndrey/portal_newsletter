@@ -5,3 +5,16 @@
   justify-content: center;
   align-items: center;
 }
+.navlist {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.navlink {
+  text-decoration: none;
+  color: #fff;
+  background-color: #111;
+  padding: 1rem 2rem;
+}
