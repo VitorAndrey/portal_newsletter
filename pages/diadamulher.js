@@ -94,33 +94,39 @@ export default function Diadamulher() {
 
           <p className="bold">Camila:</p>
           <p>“Quando há duas mulheres conversando, não há homem ou mundo que possa pará-las.”</p>
-          <Image src="/images/entrevistas/camila.jpg" alt="noticia1" width="999" height="999" className="img" />
+          <Image src="/images/entrevistas/camila.jpg" alt="Camila" width="999" height="999" className="img" />
 
           <p className="bold">Cissa:</p>
           <p>“Lutem pelos seus sonhos, deem voz as suas opiniões e busquem pelo seu respeito.”</p>
-          <Image src="/images/entrevistas/cissa.jpg" alt="noticia1" width="999" height="999" className="img" />
+          <Image src="/images/entrevistas/cissa.jpg" alt="Cissa" width="999" height="999" className="img" />
 
           <p className="bold">Laila:</p>
           <p>
             “Eu acho que a gente não tem que ter medo; o mercado e o mundo são nossos e não é que por sermos mulheres
             que fazemos menos."
           </p>
-          <Image src="/images/entrevistas/laila.jpg" alt="noticia1" width="999" height="999" className="img" />
+          <Image src="/images/entrevistas/laila.jpg" alt="Laila" width="999" height="999" className="img" />
 
           <p className="bold">Jade e Tauana:</p>
           <p>
             “Não devemos deixar de ser mulher, abrir mão da nossa vaidade, de nos cuidar e principalmente de nos amar,
             ser amigas de uma das outras.”
           </p>
-          <Image src="/images/entrevistas/jade-tauana.jpg" alt="noticia1" width="999" height="999" className="img" />
+          <Image
+            src="/images/entrevistas/jade-tauana.jpg"
+            alt="Jade e Tauana"
+            width="999"
+            height="999"
+            className="img"
+          />
 
           <p className="bold">Reisla:</p>
           <p>“Juntas possamos ser e educar outros seres que tratem com dignidade e respeito a todos”</p>
-          <Image src="/images/entrevistas/reisla.jpg" alt="noticia1" width="999" height="999" className="img" />
+          <Image src="/images/entrevistas/reisla.jpg" alt="Reisla" width="999" height="999" className="img" />
 
           <p className="bold">Cristiane e Poliana:</p>
           <p>“O dia das mulheres não é só hoje, mas todos os dias.”</p>
-          <Image src="/images/entrevistas/cristiane.jpg" alt="noticia1" width="999" height="999" className="img" />
+          <Image src="/images/entrevistas/cristiane.jpg" alt="Cristiane" width="999" height="999" className="img" />
 
           <p className="bold">Rúbia:</p>
           <p>
@@ -128,7 +134,7 @@ export default function Diadamulher() {
             algum preconceito ou porta fechada, porque isso sempre vai existir no mundo. Devemos ter nossos objetivos e
             correr atrás deles, independente de qualquer coisa."
           </p>
-          <Image src="/images/rubia.jpg" alt="noticia1" width="999" height="999" className="img" />
+          <Image src="/images/entrevistas/rubia.jpg" alt="Rubia" width="999" height="999" className="img" />
         </section>
 
         <Rodape />
