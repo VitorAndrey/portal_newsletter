@@ -11,10 +11,13 @@
   list-style: none;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
+
 .navlink {
   text-decoration: none;
   color: #fff;
-  background-color: #111;
+  min-width: 200px;
+  background-color: #13275c;
   padding: 1rem 2rem;
 }
