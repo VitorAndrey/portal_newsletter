@@ -9,7 +9,7 @@ export default function Novembro() {
       <Head>
         <title>Novembro</title>
       </Head>
-      <div class="conteiner">
+      <div className="conteiner">
         <Cabecalho
           mes={"Novembro"}
           welcome={`Ei, pessoal! Preparados para mergulhar no universo dos dispositivos eletrônicos? Então bora conferir nossa

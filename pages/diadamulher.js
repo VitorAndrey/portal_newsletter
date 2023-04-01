@@ -10,7 +10,7 @@ export default function Diadamulher() {
       <Head>
         <title>Dia Da Mulher</title>
       </Head>
-      <div class="conteiner">
+      <div className="conteiner">
         <Cabecalho
           mes="8 de Março: Dia da Mulher"
           welcome={`Saudações. "Que o Dia Internacional da Mulher seja um lembrete para celebrar todas as conquistas das
@@ -82,7 +82,7 @@ export default function Diadamulher() {
             Tecnólogo com duração de 5 semestres (2 anos e meio), você se prepara em pouco tempo para ingressar no
             mercado e encontrar boas vagas, com remunerações atrativas.
           </p>
-          <p class="bold">Juliana e Isabela:</p>
+          <p className="bold">Juliana e Isabela:</p>
           <p>“Seja uma mulher que levanta outras mulheres.”</p>
           <Image
             src="/images/entrevistas/juliana-isabela.jpg"
@@ -92,37 +92,37 @@ export default function Diadamulher() {
             className="img"
           />
 
-          <p class="bold">Camila:</p>
+          <p className="bold">Camila:</p>
           <p>“Quando há duas mulheres conversando, não há homem ou mundo que possa pará-las.”</p>
           <Image src="/images/entrevistas/camila.jpg" alt="noticia1" width="999" height="999" className="img" />
 
-          <p class="bold">Cissa:</p>
+          <p className="bold">Cissa:</p>
           <p>“Lutem pelos seus sonhos, deem voz as suas opiniões e busquem pelo seu respeito.”</p>
           <Image src="/images/entrevistas/cissa.jpg" alt="noticia1" width="999" height="999" className="img" />
 
-          <p class="bold">Laila:</p>
+          <p className="bold">Laila:</p>
           <p>
             “Eu acho que a gente não tem que ter medo; o mercado e o mundo são nossos e não é que por sermos mulheres
             que fazemos menos."
           </p>
           <Image src="/images/entrevistas/laila.jpg" alt="noticia1" width="999" height="999" className="img" />
 
-          <p class="bold">Jade e Tauana:</p>
+          <p className="bold">Jade e Tauana:</p>
           <p>
             “Não devemos deixar de ser mulher, abrir mão da nossa vaidade, de nos cuidar e principalmente de nos amar,
             ser amigas de uma das outras.”
           </p>
           <Image src="/images/entrevistas/jade-tauana.jpg" alt="noticia1" width="999" height="999" className="img" />
 
-          <p class="bold">Reisla:</p>
+          <p className="bold">Reisla:</p>
           <p>“Juntas possamos ser e educar outros seres que tratem com dignidade e respeito a todos”</p>
           <Image src="/images/entrevistas/reisla.jpg" alt="noticia1" width="999" height="999" className="img" />
 
-          <p class="bold">Cristiane e Poliana:</p>
+          <p className="bold">Cristiane e Poliana:</p>
           <p>“O dia das mulheres não é só hoje, mas todos os dias.”</p>
           <Image src="/images/entrevistas/cristiane.jpg" alt="noticia1" width="999" height="999" className="img" />
 
-          <p class="bold">Rúbia:</p>
+          <p className="bold">Rúbia:</p>
           <p>
             "Nós mulheres não devemos desistir dos nossos sonhos, somos capaz de tudo e não devemos desanimar diante de
             algum preconceito ou porta fechada, porque isso sempre vai existir no mundo. Devemos ter nossos objetivos e

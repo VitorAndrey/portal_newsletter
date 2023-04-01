@@ -10,7 +10,7 @@ export default function Fevereiro() {
       <Head>
         <title>Fevereiro</title>
       </Head>
-      <div class="conteiner">
+      <div className="conteiner">
         <Cabecalho
           mes={`Fevereiro`}
           welcome={`Saudações. "Que o Carnaval não seja uma simples fantasia, mas sim uma genuína manifestação de grande alegria

@@ -9,7 +9,7 @@ export default function Dezembro() {
       <Head>
         <title>Dezembro</title>
       </Head>
-      <div class="conteiner">
+      <div className="conteiner">
         <Cabecalho
           mes="Dezembro"
           welcome="HO HO HO!!! Papai Noel passou e deixou um presente para você, venha dar uma olhada na nossa Newsletter de

@@ -5,7 +5,7 @@ export default function Noticia({ title, theme, image, supportUrl, ulrDescriptio
     <section>
       <h2>{title}</h2>
       <h3>{theme}</h3>
-      <Image src={`/images/${image}`} alt={title} width="999" height="999" className="img" />
+      <Image src={`/images/${image}`} alt={title} width="999" height="999" className="img" priority="true" />
 
       <p>{p1}</p>
       <p>{p2}</p>

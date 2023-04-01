@@ -9,7 +9,7 @@ export default function Marco() {
       <Head>
         <title>Março</title>
       </Head>
-      <div class="conteiner">
+      <div className="conteiner">
         <Cabecalho
           mes={`Março`}
           welcome={`Descobrimos que o Chat GPT não tem senso de humor quando pedimos a ele que fizesse uma
