@@ -3,6 +3,7 @@ import Noticia from "@/components/Noticia";
 import Rodape from "@/components/Rodape";
 import Head from "next/head";
 import Image from "next/image";
+import data from "@/constants/data";
 
 export default function Diadamulher() {
   return (
@@ -12,71 +13,31 @@ export default function Diadamulher() {
       </Head>
       <div className="conteiner">
         <Cabecalho
-          mes="8 de Março: Dia da Mulher"
+          mes={"8 de Março: Dia da Mulher"}
           welcome={`Saudações. "Que o Dia Internacional da Mulher seja um lembrete para celebrar todas as conquistas das
             mulheres e para continuar lutando por igualdade de gênero em todo o mundo."`}
         />
 
-        <Noticia
-          title="Tech Girls utiliza a tecnologia para transformar a vida de mulheres"
-          theme="Tecnologia"
-          image="8mar-noticia-1.jpg"
-          p1="Fundado pela desenvolvedora de software Gisele Lasserre, o Tech Girls também busca mitigar os danos causados
-          pelo lixo eletrônico, fazendo a reciclagem de computadores e componentes que, depois, são enviados a todo o
-          país."
-          p2="No curso, as alunas aprendem, de forma lúdica e afetiva, como gosta de ressaltar Gisele, desde a criação de
-          bijuterias utilizando componentes não reaproveitáveis de computadores, as bijutechs, até o desenvolvimento
-          de software na última etapa. O programa ainda inclui módulos de empreendedorismo digital, manutenção de
-          notebooks e lógica de programação"
-          supportUrl="https://www.gazetadopovo.com.br/gazz-conecta/tech-girls-utiliza-a-tecnologia-para-transformar-a-vida-de-mulheres"
-          ulrDescription="Saiba mais sobre como a tecnologia transfoma a vida das mulheres."
-        />
-
-        <Noticia
-          title="Curiosidades sobre o Dia Internacional da Mulher"
-          theme="Curiosidades"
-          image="8mar-noticia-2.png"
-          p1="O Dia Internacional das Mulheres é comemorado nesta data porque foi no dia 08 de março de 1917,na Rússia,
-          que cerca de 90 mil mulheres operárias foram às ruas protestar por melhores condições de trabalho e de vida,
-          uma vez que tinham longas jornadas de trabalho, recebiam muito menos que os homens e não tinham direito ao
-          voto."
-          supportUrl="https://querobolsa.com.br/revista/8-de-marco-entenda-porque-e-comemorado-o-dia-internacional-das-mulheres#:~:text=O%20Dia%20Internacional%20das%20Mulheres%20%C3%A9%20comemorado%20nesta%20data%20porque,os%20homens%20e%20n%C3%A3o%20tinham"
-          ulrDescription="Saiba mais."
-        />
-
-        <Noticia
-          title="Assédio: o que é, tipos e como se proteger"
-          theme="Informação"
-          image="8mar-noticia-3.png"
-          p1="O que caracteriza o assédio? O assédio pode incluir uma variedade de comportamentos de natureza verbal e
-          física, incluindo:"
-          p2="- Piadas ofensivas, intimidadoras ou incômodas, Observações humilhantes."
-          p3="- Xingamentos, apelidos ofensivos ou calúnias."
-          p4="- Agressões físicas, Ameaças, Intimidação."
-          p5={`- Imagens ou objetos ofensivos, incluindo imagens pornográficas.`}
-          supportUrl="https://atividadepolicial.com.br/10-medidas-contra-o-assedio-sexual/"
-          ulrDescription="10 medidas contra o assedio sexual."
-        />
-
-        <Noticia
-          title="9 mulheres que botam pra quebrar na tecnologia!"
-          theme="Informação"
-          image="8mar-noticia-4.png"
-          p1="Falar sobre representatividade em tecnologia é fundamental para estourar a bolha que acha que esse mercado
-          só tem espaço para homens."
-          p2="Os números mostram: cada vez mais, aos poucos, os recortes de gênero, raça e classe social vão se mostrando
-          no mundo tech e inaugurando discussões super essenciais para um crescimento saudável - e com mais
-          diversidade. Em cinco anos, a presença feminina na tecnologia cresceu 60%, passando de 27,9 mil mulheres em
-          2014 para 44,5 mil, em 2019, como mostra a pesquisa do Cadastro Geral de Empregados e Desempregados. Mesmo
-          assim, é preciso interpretar mais a fundo."
-          supportUrl="https://www.alura.com.br/artigos/representatividade-mercado-tech-9-mulheres-tecnologia-para-conhecer-e-acompanhar?gclid=Cj0KCQiAgaGgBhC8ARIsAAAyLfFRRoK52_RQX0CSprtZUg8HTZVVOZ92hNRss7aF9CJnqiEiHzprjMIaAqapEALw_wcB"
-          ulrDescription="9 mulheres que contribuem de diferentes maneiras para um mercado tech mais plural e possível para todas."
-        />
+        {data.diaDaMulher.map((diaDaMulher) => (
+          <Noticia
+            key={diaDaMulher.id}
+            title={diaDaMulher.title}
+            theme={diaDaMulher.theme}
+            image={diaDaMulher.image}
+            p1={diaDaMulher.p1}
+            p2={diaDaMulher.p2}
+            p3={diaDaMulher.p3}
+            p4={diaDaMulher.p4}
+            p5={diaDaMulher.p5}
+            supportUrl={diaDaMulher.supportUrl}
+            ulrDescription={diaDaMulher.ulrDescription}
+          />
+        ))}
 
         <section>
           <h2>Mulheres no SENAC divinopolis</h2>
           <h3>Entrevistas</h3>
-          <Image src="/images/8mar-noticia-5.png" alt="noticia1" width="1000" height="200" className="img" />
+          <Image src="/images/8mar-noticia-5.png" alt="noticia1" width="999" height="999" className="img" />
           <p>
             O curso de Redes de Computadores é uma boa aposta para quem tem afinidade com tecnologia. Por ser um
             Tecnólogo com duração de 5 semestres (2 anos e meio), você se prepara em pouco tempo para ingressar no
