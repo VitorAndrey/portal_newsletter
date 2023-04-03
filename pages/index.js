@@ -22,24 +22,20 @@ export default function Home() {
           priority="true"
         />
         <div className={styles.navlist}>
-          <Link href="/novembro" className={styles.navlink}>
-            Novembro
+          <Link href="/marco" className={styles.navlink}>
+            Março
           </Link>
-
-          <Link href="/dezembro" className={styles.navlink}>
-            Dezembro
-          </Link>
-
-          <Link href="/fevereiro" className={styles.navlink}>
-            Fevereiro
-          </Link>
-
           <Link href="/diadamulher" className={styles.navlink}>
             Dia das mulheres
           </Link>
-
-          <Link href="/marco" className={styles.navlink}>
-            Março
+          <Link href="/fevereiro" className={styles.navlink}>
+            Fevereiro
+          </Link>
+          <Link href="/dezembro" className={styles.navlink}>
+            Dezembro
+          </Link>
+          <Link href="/novembro" className={styles.navlink}>
+            Novembro
           </Link>
         </div>
       </main>
