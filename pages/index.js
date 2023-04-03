@@ -1,6 +1,7 @@
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,33 +13,35 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <ul className={styles.navlist}>
-          <li>
-            <Link href="/novembro" className={styles.navlink}>
-              Novembro
-            </Link>
-          </li>
-          <li>
-            <Link href="/dezembro" className={styles.navlink}>
-              Dezembro
-            </Link>
-          </li>
-          <li>
-            <Link href="/fevereiro" className={styles.navlink}>
-              Fevereiro
-            </Link>
-          </li>
-          <li>
-            <Link href="/diadamulher" className={styles.navlink}>
-              Dia das mulheres
-            </Link>
-          </li>
-          <li>
-            <Link href="/marco" className={styles.navlink}>
-              Março
-            </Link>
-          </li>
-        </ul>
+        <Image
+          src="/images/home-bg.png"
+          width={999}
+          height={999}
+          alt="bg"
+          className={styles.image}
+          priority="true"
+        />
+        <div className={styles.navlist}>
+          <Link href="/novembro" className={styles.navlink}>
+            Novembro
+          </Link>
+
+          <Link href="/dezembro" className={styles.navlink}>
+            Dezembro
+          </Link>
+
+          <Link href="/fevereiro" className={styles.navlink}>
+            Fevereiro
+          </Link>
+
+          <Link href="/diadamulher" className={styles.navlink}>
+            Dia das mulheres
+          </Link>
+
+          <Link href="/marco" className={styles.navlink}>
+            Março
+          </Link>
+        </div>
       </main>
     </>
   );
