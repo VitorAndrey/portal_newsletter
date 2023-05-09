@@ -326,19 +326,16 @@ const diaDaMulher = [
   },
 ];
 
-// Noticias de Março
-const marco = [
+// Noticias de Abril
+const abril = [
   {
     id: 1,
-    title: `O que a imagem fake do Papa diz sobre o futuro da IA`,
+    title: `Desenvolvimento de Games: o que você precisa saber?`,
     theme: "Tecnologia",
-    p1: `O Papa Francisco vestido com uma jaqueta puffer foi um dos temas do fim de semana. As análises, notícias e
-          até mesmo críticas e opiniões divididas sobre o look do pontífice não duraram muito tempo até a revelação de
-          que a imagem, na verdade, foi mais uma criação feita por inteligência artificial na plataforma Midjourney.`,
-    p2: `O
-          responsável foi o artista Pablo Xavier, de 30 anos. Residente em Chicago, Pablo divide o ofício com a
-          carreira na Construção Civil e saiu do quase anonimato para uma visibilidade mundial.`,
-    image: `mar-noticia-1.jpg`,
+    p1: `Embora os requisitos de educação variem com base em empregadores, muitos desenvolvedores de jogos em potencial procuram um diploma de bacharel em ciência da computação, engenharia de software ou um campo relacionado — mas já existem cursos específicos.`,
+    p2: `Como desenvolvedor de games, você pode projetar as principais características do jogo, supervisionar os testes e elaborar o design. Você também pode trabalhar na produção e conceito artístico.
+    Essa carreira permite muito o uso da criatividade, mas a concorrência por empregos é intensa.`,
+    image: `abr-noticia-1.png`,
     supportUrl: `https://forbes.com.br/forbes-tech/2023/03/o-que-a-imagem-fake-do-papa-diz-sobre-o-futuro-da-ia/`,
     ulrDescription: `Saiba mais sobre o fake do Papa.`,
   },
@@ -353,7 +350,7 @@ const marco = [
     p4: `- Objetos se misturando à pele e Falta de simetria no rosto;`,
     p5: `Em suma, a dica é verificar se há inconsistências visíveis na imagem. Além das citadas acima, entram aqui
           bordas embaçadas; detalhes do corpo ou fios de cabelo cortados e por aí vai.`,
-    image: `mar-noticia-2.jpg`,
+    image: `abr-noticia-2.webp`,
     supportUrl: `https://olhardigital.com.br/2023/03/30/dicas-e-tutoriais/como-identificar-fotos-falsas-criadas-por-ia/`,
     ulrDescription: `Saiba como identificar.`,
   },
@@ -367,7 +364,7 @@ const marco = [
           bastante nos últimos anos, com as pessoas adorando colocar as máquinas para “imaginarem” situações
           inusitadas. Pois foi usando uma dessas ferramentas, a Midjourney, que um sujeito conseguiu algo muito
           interessante: criar um jogo experimental.`,
-    image: `mar-noticia-3.jpg`,
+    image: `abr-noticia-3.png`,
     supportUrl: `https://meiobit.com/459159/midjourney-a-inteligencia-artificial-na-criacao-de-games/`,
     ulrDescription: `Saiba mais sobre Midjourey.`,
   },
@@ -382,7 +379,7 @@ const marco = [
     p2: `Além disso, o Google poderá tornar o texto mais elaborado ou resumido, de acordo
           com a necessidade do usuário. No Docs, a inteligência artificial poderá tornar o texto mais detalhado ou
           reescrevê-lo de forma concisa. Isso pode ser útil na redação de postagens de blog ou letras de músicas.`,
-    image: `mar-noticia-4.jpg`,
+    image: `abr-noticia-4.webp`,
     supportUrl: `https://cuboup.com/conteudo/d-id/#:~:text=D-ID:%20%C3%89%20uma%20plataforma,proteger%20a%20identidade%20dos%20usu%C3%A1rios`,
     ulrDescription: `Saiba mais sobre a notícia do Google.`,
   },
@@ -397,7 +394,7 @@ const marco = [
           trabalham com essa tecnologia estão em "uma corrida fora de controle para desenvolver e implementar mentes
           digitais cada vez mais poderosas que ninguém, nem mesmo seus criadores, pode entender, prever ou controlar
           com segurança".`,
-    image: `mar-noticia-5.png`,
+    image: `abr-noticia-5.png`,
     supportUrl: `https://teg6.com.br/93507/noticias/d-id-revela-nova-api-de-bate-papo-para-permitir-conversas-cara-a-cara-com-um-ser-humano-digital-de-ia/`,
     ulrDescription: `Saiba mais sobre opinião dos especialistas.`,
   },
@@ -411,67 +408,10 @@ const marco = [
           usuários.`,
     p2: ` A plataforma é uma opção popular para empresas que desejam criar vídeos personalizados e atraentes
           sem a necessidade de conhecimentos técnicos especializados em produção de vídeo ou design gráfico.`,
-    image: `mar-noticia-6.png`,
+    image: `abr-noticia-6.png`,
     supportUrl: `https://cuboup.com/conteudo/d-id/#:~:text=D-ID:%20%C3%89%20uma%20plataforma,proteger%20a%20identidade%20dos%20usu%C3%A1rios`,
     ulrDescription: `Saiba mais sobre D-ID.`,
   },
-  {
-    id: 7,
-    title: `Luma AI transforma vídeos em modelos 3D por quase nenhum dinheiro`,
-    theme: "Tecnologia",
-    p1: `A Luma AI, com sede na Califórnia, pretende democratizar as cenas 3D. Após o lançamento de uma ferramenta de
-          texto para 3D, a startup introduziu uma API para converter imagens e vídeos em modelos 3D. Atualmente, leva
-          entre US $ 60 e US $ 1.500 e duas a dez semanas para criar um modelo 3D, diz a startup de IA Luma AI.`,
-    p2: `Ele
-          quer tornar o processo muito mais rápido e barato, até 30 minutos e apenas US $ 1 por modelo. Para criar um
-          modelo 3D a partir de um conjunto de imagens ou vídeos, os desenvolvedores podem usar a nova API, mas os
-          usuários finais também podem acessar uma interface da Web.`,
-    image: `mar-noticia-7.jpg`,
-    supportUrl: `https://the-decoder.com/luma-ai-turns-videos-into-3d-models-for-almost-no-money/`,
-    ulrDescription: `Saiba mais sobre a Luma IA.`,
-  },
-  {
-    id: 8,
-    title: `Auto Draw! O 'Paint do Google'`,
-    theme: "Tecnologia",
-    p1: `Se você não tem habilidade para desenhar, só consegue fazer rabiscos bem primários, e mesmo assim sonha em
-          fazer arte gráfica com qualidade, o Google tem a solução.`,
-    p2: `É o AutoDraw, uma ferramenta de imagens gratuita,
-          que consegue “ler” traços e rabiscos e os transformar em desenhos ou símbolos complexos. A ferramenta é
-          composta por um sistema robusto de inteligência artificial, e à medida que é usado, fica mais inteligente.
-          Ele aumenta aos poucos a capacidade de reconhecer novos desenhos e formatos corretamente.`,
-    image: `mar-noticia-9.png`,
-    supportUrl: `https://olhardigital.com.br/2021/08/06/videos/autodraw-ferramenta-do-google-transforma-rabiscos-em-desenhos/`,
-    ulrDescription: `Saiba mais sobre o Auto Draw!`,
-  },
-  {
-    id: 9,
-    title: `Mixo, o construtor de sites de IA`,
-    theme: "Tecnologia",
-    p1: `Mixo, o aplicativo de IA que pode construir um site a partir de uma única ideia, é um aplicativo
-          revolucionário de inteligência artificial que pode gerar sites impressionantes adaptados às suas
-          preferências e objetivos.`,
-    p2: `Este aplicativo cuidará de tudo para você, desde hospedagem até domínios e
-          modelos. Apenas respondendo a algumas perguntas simples, a Mixo criará um site para você a partir do zero.
-          Você poderá personalizar seu site com suas próprias imagens e conteúdo. E atualize-o usando sua interface
-          simples e amigável.`,
-    image: `mar-noticia-10.jpg`,
-    supportUrl: `https://www.pcguide.com/apps/mixo/`,
-    ulrDescription: `Saiba mais sobre o Mixo.`,
-  },
-  {
-    id: 10,
-    title: ` O poder da IA: explorando 5 ferramentas cognitivas inacreditáveis para suas tarefas pessoais e de trabalho`,
-    theme: "Informação",
-    p1: `Quem não ama um bom atalho, não é? Nosso cérebro está sempre buscando formas de economizar energia, então se
-          existe uma forma para fazer nosso trabalho de forma mais simples, fácil e rápida, nós vamos adorar.`,
-    p2: `Hoje há
-          um conjunto de atalhos que não só facilitam as nossas vidas, mas também melhoram nosso desempenho, ampliam
-          nosso conhecimento e aumentam nossa produtividade. Bem-vindo ao novo mundo das ferramentas cognitivas.`,
-    image: `mar-noticia-11.png`,
-    supportUrl: `https://pt.linkedin.com/pulse/o-poder-da-ia-explorando-5-ferramentas-cognitivas-para-nascimento?trk=pulse-article`,
-    ulrDescription: `Saiba mais sobre as 5 ferramentas cognitivas.`,
-  },
 ];
 
-export default { novembro, dezembro, fevereiro, diaDaMulher, marco };
+export default { novembro, dezembro, fevereiro, diaDaMulher, marco, abril };

@@ -8,30 +8,30 @@ export default function Marco() {
   return (
     <>
       <Head>
-        <title>Março</title>
+        <title>Abril</title>
       </Head>
       <div className="conteiner">
         <Cabecalho
-          mes={`Março`}
+          mes={`Abril`}
           welcome={`Descobrimos que o Chat GPT não tem senso de humor quando pedimos a ele que fizesse uma
            introdução bem humorada: "Olá, queridos leitores! Sou ChatGPT, um modelo de linguagem super inteligente 
            e bem humorado. Estou aqui para trazer as últimas novidades sobre inteligências artificiais e animar o 
            seu dia com um toque de diversão. Vamos juntos explorar o incrível mundo da tecnologia e rir um pouco no caminho!"`}
         />
 
-        {data.marco.map((marco) => (
+        {data.abril.map((abril) => (
           <Noticia
-            key={marco.id}
-            title={marco.title}
-            theme={marco.theme}
-            image={marco.image}
-            p1={marco.p1}
-            p2={marco.p2}
-            p3={marco.p3}
-            p4={marco.p4}
-            p5={marco.p5}
-            supportUrl={marco.supportUrl}
-            ulrDescription={marco.ulrDescription}
+            key={abril.id}
+            title={abril.title}
+            theme={abril.theme}
+            image={abril.image}
+            p1={abril.p1}
+            p2={abril.p2}
+            p3={abril.p3}
+            p4={abril.p4}
+            p5={abril.p5}
+            supportUrl={abril.supportUrl}
+            ulrDescription={abril.ulrDescription}
           />
         ))}
 
