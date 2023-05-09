@@ -336,37 +336,34 @@ const abril = [
     p2: `Como desenvolvedor de games, você pode projetar as principais características do jogo, supervisionar os testes e elaborar o design. Você também pode trabalhar na produção e conceito artístico.
     Essa carreira permite muito o uso da criatividade, mas a concorrência por empregos é intensa.`,
     image: `abr-noticia-1.png`,
-    supportUrl: `https://forbes.com.br/forbes-tech/2023/03/o-que-a-imagem-fake-do-papa-diz-sobre-o-futuro-da-ia/`,
-    ulrDescription: `Saiba mais sobre o fake do Papa.`,
+    supportUrl: `https://www.somosicev.com/blogs/desenvolvimento-de-games-o-que-voce-precisa-saber/`,
+    ulrDescription: `Saiba mais sobre o que você precisa saber`,
   },
   {
     id: 2,
+    title: `Comunidades para devs Full Stack; como começar ou alavancar carreira?`,
+    theme: "Tecnologia",
+    p1: `A carreira de desenvolvedor full stack ainda é uma excelente opção para quem deseja entrar na área, especialmente por se trata de um mercado ainda crescimento. No entanto, estar constantemente atualizado é tão importante quanto uma formação inicial, seja buscando cursos aprofundados, bootcamps ou estudando por conta própria.`,
+    p2: `As comunidades online colaborativas são essenciais em todos os casos, mas principalmente para usuários que preferem se especializar de maneira independente. Elas permitem autonomia aos devs, o que torna possível definir ritmo de estudos, ou foco específico, fatores que nem sempre agradam em programas de treinamento fechados.`,
+    p3: `Além de complementar as habilidades técnicas do desenvolvedor, muitas dessas comunidades servem também como ambientes em que os usuários podem divulgar seus trabalhos a outros programadores ou pedir ajuda. Com isso, é possível receber feedbacks sobre como melhorar seus códigos, e até estabelecer contatos profissionais valiosos`,
+    image: `abr-noticia-2.webp`,
+    supportUrl: `https://isnportal.com.br/editorias/tecnologia-ciencia/2023/04/30/comunidades-para-devs-full-stack-como-comecar-ou-alavancar-carreira`,
+    ulrDescription: `Comunidades para devs Full Stack; como começar ou alavancar carreira?`,
+  },
+  {
+    id: 3,
     title: `Como identificar fotos “falsas” criadas por IA`,
     theme: "Informação",
     p1: `Existem outras dicas para saber se uma imagem saiu da mente de alguém “naturalmente” ou por meio de uma IA.
-          Atente-se a elementos como:`,
+            Atente-se a elementos como:`,
     p2: `- Fundo muito desfocado e textos indecifráveis em segundo plano;`,
     p3: `- Partes da imagem parecem pintadas;`,
     p4: `- Objetos se misturando à pele e Falta de simetria no rosto;`,
     p5: `Em suma, a dica é verificar se há inconsistências visíveis na imagem. Além das citadas acima, entram aqui
-          bordas embaçadas; detalhes do corpo ou fios de cabelo cortados e por aí vai.`,
-    image: `abr-noticia-2.webp`,
+            bordas embaçadas; detalhes do corpo ou fios de cabelo cortados e por aí vai.`,
+    image: `abr-noticia-3.png`,
     supportUrl: `https://olhardigital.com.br/2023/03/30/dicas-e-tutoriais/como-identificar-fotos-falsas-criadas-por-ia/`,
     ulrDescription: `Saiba como identificar.`,
-  },
-  {
-    id: 3,
-    title: `Midjourney: a inteligência artificial na criação de games`,
-    theme: "Tecnologia",
-    p1: `Usando a impressionante ferramenta Midjourney, uma pessoa criou um shoot 'em up em que todas as imagens
-          foram geradas por inteligência artificial. `,
-    p2: `A geração de conteúdo usando inteligência artificial tem evoluído
-          bastante nos últimos anos, com as pessoas adorando colocar as máquinas para “imaginarem” situações
-          inusitadas. Pois foi usando uma dessas ferramentas, a Midjourney, que um sujeito conseguiu algo muito
-          interessante: criar um jogo experimental.`,
-    image: `abr-noticia-3.png`,
-    supportUrl: `https://meiobit.com/459159/midjourney-a-inteligencia-artificial-na-criacao-de-games/`,
-    ulrDescription: `Saiba mais sobre Midjourey.`,
   },
   {
     id: 4,
