@@ -502,54 +502,43 @@ const abril = [
     id: 3,
     title: `Desenvolvimento mobile: Por onde começar a minha carreira?`,
     theme: "Mobile",
-    p1: `Por acaso você já ouviu falar em programação de aplicativos (apps) de smartphones? E desenvolvedor de softwares e recursos para dispositivos móveis? Então você precisa conhecer o trabalho de um desenvolvedor mobile. Para se ter uma ideia inicial da função do desenvolvedor mobile, é ele quem cria e aprimora os apps que você utiliza no telefone. Hoje em dia, quase todo mundo possui um aplicativo no celular. E essas ferramentas prestam serviços variados, desde banco até barbearia, de aluguel de casa até pedido de comida.`,
+    p1: `Por acaso você já ouviu falar em programação de aplicativos (apps) de smartphones? E desenvolvedor de softwares e recursos para dispositivos móveis? Então você precisa conhecer o trabalho de um desenvolvedor mobile. `,
+    p2: `Para se ter uma ideia inicial da função do desenvolvedor mobile, é ele quem cria e aprimora os apps que você utiliza no telefone. Hoje em dia, quase todo mundo possui um aplicativo no celular. E essas ferramentas prestam serviços variados, desde banco até barbearia, de aluguel de casa até pedido de comida.`,
     image: `abr-noticia-3.png`,
     supportUrl: `https://www.poder360.com.br/tecnologia/chatbots-utilizam-noticias-sem-permissao-para-treinar-ia/`,
-    ulrDescription: `Por onde começar a minha carreira`,
+    ulrDescription: `Por onde começar a minha carreira?`,
   },
   {
     id: 4,
-    title: `Google inicia testes com inteligência artificial generativa no Gmail e no Doc.`,
+    title: `Google confirma que a IA Chatbot para Pesquisa está em desenvolvimento`,
     theme: "Informação",
-    p1: `O Google está trazendo recursos de inteligência artificial generativa para os aplicativos do Workspace, e
-              agora está iniciando testes públicos no Gmail e no Docs. No Gmail, a inteligência artificial generativa
-              poderá ajudar na redação de diversos tipos de conteúdo, desde convites de aniversário até cartas de
-              apresentação de emprego.`,
-    p2: `Além disso, o Google poderá tornar o texto mais elaborado ou resumido, de acordo
-              com a necessidade do usuário. No Docs, a inteligência artificial poderá tornar o texto mais detalhado ou
-              reescrevê-lo de forma concisa. Isso pode ser útil na redação de postagens de blog ou letras de músicas.`,
+    p1: `O mercado de mecanismos de busca está passando por uma mudança com o surgimento de chatbots de inteligência artificial avançados, incluindo o ChatGPT da OpenAI e o chatbot integrado no motor de busca Bing da Microsoft.`,
+    p2: `Para manter sua posição dominante, o Google está desenvolvendo um chatbot de IA de pesquisa. O CEO do Google, Sundar Pichai, confirmou o desenvolvimento durante uma entrevista recente e afirmou que os usuários poderão se envolver com modelos de aprendizagem de linguagem natural e fazer perguntas. A Pesquisa do Google tem sido líder no mercado de mecanismos de busca por várias décadas, mas o surgimento de chatbots de IA avançados representa um desafio significativo para a empresa`,
     image: `abr-noticia-4.webp`,
-    supportUrl: `https://cuboup.com/conteudo/d-id/#:~:text=D-ID:%20%C3%89%20uma%20plataforma,proteger%20a%20identidade%20dos%20usu%C3%A1rios`,
+    supportUrl: `https://androidgeek.pt/google-confirma-que-a-ia-chatbot-para-pesquisa-esta-em-desenvolvimento-mas-para-quando`,
     ulrDescription: `Saiba mais sobre a notícia do Google.`,
   },
   {
     id: 5,
-    title: `Inteligência artificial: o alerta de mil especialistas sobre 'risco para a humanidade'`,
+    title: `Programação ainda vale a pena? Dá dinheiro? Profissionais contam como está o setor (e dão dicas)`,
     theme: "Informação",
-    p1: `Um grupo de especialistas em inteligência artificial e executivos da indústria de tecnologia pediu uma pausa
-              de seis meses no treinamento de poderosos sistemas de inteligência artificial, argumentando que eles
-              representam uma potencial ameaça à humanidade.`,
-    p2: ` Em carta aberta, eles alegam que os laboratórios que
-              trabalham com essa tecnologia estão em "uma corrida fora de controle para desenvolver e implementar mentes
-              digitais cada vez mais poderosas que ninguém, nem mesmo seus criadores, pode entender, prever ou controlar
-              com segurança".`,
+    p1: `Você, certamente, já ouviu de alguém que programação dá dinheiro, certo? Mas com tanta empresa de tecnologia demitindo, será que a área, que permite ao profissional desenvolver sites, jogos, aplicativos, entre outros, ainda é vantajosa?`,
+    p2: `Especialistas dizem que, apesar do mau momento no setor, codar - que nada mais é do que programar usando códigos - ainda vale a pena. E existe espaço para novos talentos.`,
+    p3: `O número de vagas no setor de tecnologia cresceu 34,3% entre janeiro e outubro de 2022, segundo um levantamento do portal Empregos.com.br. Nesse período, mais de 70 mil novas oportunidades foram abertas. Programação foi a segunda área com mais demanda, atrás apenas de desenvolvimento.`,
+    p4: `Nos últimos meses, o g1 ouviu especialistas e profissionais de várias regiões do Brasil. Com base nestes relatos, a reportagem traz, a seguir, uma série de dicas para quem deseja iniciar ou migrar para programação.`,
     image: `abr-noticia-5.png`,
-    supportUrl: `https://teg6.com.br/93507/noticias/d-id-revela-nova-api-de-bate-papo-para-permitir-conversas-cara-a-cara-com-um-ser-humano-digital-de-ia/`,
-    ulrDescription: `Saiba mais sobre opinião dos especialistas.`,
+    supportUrl: `https://g1.globo.com/tecnologia/noticia/2023/05/09/entenda-se-programacao-ainda-vale-a-pena-profissionais-contam-como-esta-o-setor.ghtml`,
+    ulrDescription: `Confira a notícia completa aqui`,
   },
   {
     id: 6,
-    title: `D-ID: O que é a AI que Cria Vídeos, como usar em português e exemplos`,
-    theme: "Tecnologia",
-    p1: `D-ID é uma plataforma de criação de vídeo gerada por inteligência artificial que oferece soluções de
-              reconhecimento facial e proteção de identidade para empresas. A plataforma utiliza tecnologia de aprendizado
-              de máquina para criar vídeos personalizados, automatizar a produção de conteúdo e proteger a privacidade dos
-              usuários.`,
-    p2: ` A plataforma é uma opção popular para empresas que desejam criar vídeos personalizados e atraentes
-              sem a necessidade de conhecimentos técnicos especializados em produção de vídeo ou design gráfico.`,
+    title: `Salários de Programador em 2023: Saiba Quanto Ganham!`,
+    theme: "Salários e benefícios",
+    p1: `A tecnologia criou um grande número de novas profissões, dentre elas a de programador, que conta com um grande número de oportunidades de trabalho, mas será que é um trabalho bem remunerado?
+    Nessa notícia, você vai saber mais sobre o programador – o que faz, onde pode trabalhar e seu salário médio!`,
     image: `abr-noticia-6.png`,
-    supportUrl: `https://cuboup.com/conteudo/d-id/#:~:text=D-ID:%20%C3%89%20uma%20plataforma,proteger%20a%20identidade%20dos%20usu%C3%A1rios`,
-    ulrDescription: `Saiba mais sobre D-ID.`,
+    supportUrl: `salariominimo2023.com.br`,
+    ulrDescription: `Saiba mais`,
   },
 ];
 
