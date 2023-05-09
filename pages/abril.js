@@ -39,12 +39,12 @@ export default function Marco() {
             Então, se liga só!
           </p>
 
-          {/* <iframe
+          <iframe
             src="https://drive.google.com/file/d/1rGPk4iIrlZa8rDZ8OmvC9xesE3YYBnZL/preview"
             width="559"
             height="480"
             allow="autoplay"
-          ></iframe> */}
+          ></iframe>
 
           <p>
             Partimos do zero para criar a Lan house. Realizamos a instalação do cabeamento
