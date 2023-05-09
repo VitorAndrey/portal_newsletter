@@ -22,6 +22,9 @@ export default function Home() {
           priority="true"
         />
         <div className={styles.navlist}>
+          <Link href="/abril" className={styles.navlink}>
+            Abril
+          </Link>
           <Link href="/marco" className={styles.navlink}>
             Março
           </Link>
